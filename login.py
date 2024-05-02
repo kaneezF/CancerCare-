@@ -13,9 +13,9 @@ def app():
 
     # Database connection
     db = mysql.connector.connect(
-        host="127.0.0.1",
+        host="host",
         user="root",
-        password="Falak@11",
+        password="your password",
         database="mydb"
     )
     cursor = db.cursor()
