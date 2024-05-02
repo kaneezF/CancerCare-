@@ -17,3 +17,10 @@ Cancer Care is a comprehensive web application dedicated to providing various se
    - All features and pages are accessible only after signing in, ensuring user privacy and security.
 
 
+## Technologies used
+
+1.Streamlit Python
+
+2.Random forest algorithm and SVM , Logistic regression
+
+3.Database - MySQL
