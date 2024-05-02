@@ -6,9 +6,9 @@ import re
 def app():
     # Database connection
     db = mysql.connector.connect(
-        host="localhost",
+        host="host",
         user="root",
-        password="Falak@11",
+        password="your password",
         database="mydb"
     )
     cursor = db.cursor()
