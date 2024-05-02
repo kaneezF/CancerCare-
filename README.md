@@ -24,3 +24,8 @@ Cancer Care is a comprehensive web application dedicated to providing various se
 2.Random forest algorithm and SVM , Logistic regression
 
 3.Database - MySQL
+
+
+## Disclaimer: 
+CancerCare is not a substitute for professional medical advice. 
+Consult a healthcare provider for accurate diagnosis and treatment.
