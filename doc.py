@@ -16,7 +16,7 @@ class FindDoctorApp:
     def search_doctors(self):
         # Use Google Places API to search for doctors
         # Replace 'YOUR_API_KEY' with your actual Google Places API key
-        api_key = 'AIzaSyBt1I4b_0y8RphfTIBSlXl6MlPlf4DpEDQ'
+        api_key = 'YOUR_API_KEY'
         url = f"https://maps.googleapis.com/maps/api/place/textsearch/json?query=hospital+{self.search_term}&key={api_key}"
         
         response = requests.get(url)
@@ -28,7 +28,7 @@ class FindDoctorApp:
         
     def get_phone_number(self, place_id):
             ph_number = 0
-            api_key = 'AIzaSyBt1I4b_0y8RphfTIBSlXl6MlPlf4DpEDQ'
+            api_key = 'YOUR_API_KEY'
             place_details_url = "https://maps.googleapis.com/maps/api/place/details/json?place_id={}&fields=formatted_phone_number&key={}".format(
             place_id, api_key)
             response = requests.get(place_details_url)
